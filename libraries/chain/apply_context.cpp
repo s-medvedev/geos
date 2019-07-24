@@ -23,7 +23,7 @@ static inline void print_debug(account_name receiver, const action_trace& ar) {
                                       ("a", ar.act.account)
                                       ("n", ar.act.name)
                                       ("r", receiver));
-      dlog(prefix + ": CONSOLE OUTPUT BEGIN =====================\n"
+      elog(prefix + ": CONSOLE OUTPUT BEGIN =====================\n"
            + ar.console
            + prefix + ": CONSOLE OUTPUT END   =====================" );
    }
